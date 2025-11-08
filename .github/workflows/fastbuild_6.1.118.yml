@@ -17,6 +17,7 @@ on:
         options:
           - 'sukisu'
           - 'ksunext'
+          - 'false'
       hook_method:
         description: hook模式(大部分情况manual即可，若新版manual钩子出现问题可尝试syscall, 少数需切换sus su模式的场景才需要kprobes钩子)
         required: true
